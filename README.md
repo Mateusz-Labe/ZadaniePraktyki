@@ -1,16 +1,22 @@
-# React + Vite
+Projekt został wykonany na rzecz Praktyk 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projekt Polega na mojej nauce API
 
-Currently, two official plugins are available:
+Strona wyświetla informacje o użytkownikach np:
+- Ich imie i nazwisko
+- Wstawione posty
+- Ilość wystawionych postów
+- Średnia ilość komentarzy pod postami
+- Oraz ilość wykonanych zadań (todos) z wszystkich ustanowionych przez użytkownika
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+na stronie znajdziemy również 2 wykresy jeden słupkowy oraz jeden kołowy zawierający te same dane ponieważ uważam iż były one najbardziej zróżnicowane a tym samym lepiej ukazywały funkcjonalność wykresów
 
-## React Compiler
+![Zdjęcie ukazujące fragment informacj o użytkowniku Leanne Graham zawierający Ilość wysłanych postów (10), średnią ilość komentarzy pod postem(5.00) oraz Ukończonych Zadań(11/20)](./public/Screenshot%20(93).png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ChatGPT został w tym projekcie wykorzystany głównie do wykresów ponieważ wcześniej nie miałem z nimi doczynienia, generowania kodu oraz tłumaczenia
+Każdą linijkę o jaką poprosiłem również prosiłem o szczegółowe wytłumaczenie kodu dla faktycznego zrozumienia a nie tylko przepisywania lub kopiowania
 
-## Expanding the ESLint configuration
+Z czasem zacząłem bardziej rozumieć jak wszystko działa a tym samym starałem ograniczyć się wspomagania Chatem co mi się w pewnym procencie udało
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dzięki temu projektowi lepiej rozumiem funkcje .map która wcześniej była dla mnie kompletnie niezrozumiała mimo próby wykorzystania jej wcześniej
+
